@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dvm-kit"
+version = "0.1.0"
+description = ""
+authors = ["Nour <1257310+nourspace@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+environs = "^10.3.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+pydantic = "^2.6.1"
+structlog = "^24.1.0"
+nostr-sdk = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
